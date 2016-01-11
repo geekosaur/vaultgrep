@@ -1,5 +1,5 @@
 # vaultgrep
-ugly little tool to search DCSS vaults
+ugly little tool to search [DCSS](http://crawl.develz.org) vaults
 
 a bit buggy at this point, also needs to be rethought --- currently it does
 searches in a "streaming" fashion which means it has order dependencies and
