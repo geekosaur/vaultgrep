@@ -25,3 +25,13 @@ altar/overflow.des:530: [elyvilon_altar_4] MONS:   patrolling quokka att:good_ne
 ```
 
 Note that using this does assume some familiarity with vault syntax.
+Also note that --monster/--feature/--item controls what fields it looks
+in, so there are useful but strange-looking queries like
+
+```
+vaultgrep --monster giant spiked club
+```
+
+to find a vault with a monster wielding that weapon. (At the moment,
+you may want to filter that through regular grep.)
+
