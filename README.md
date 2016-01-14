@@ -24,7 +24,8 @@ pyanfar «vaultgrep:master» Z$ vaultgrep --monster neutral quokka
 altar/overflow.des:530: [elyvilon_altar_4] MONS:   patrolling quokka att:good_neutral
 ```
 
-Note that using this does assume some familiarity with vault syntax.
+Note that using this does assume some familiarity with
+[vault syntax](https://github.com/crawl/crawl/blob/master/crawl-ref/docs/develop/levels/syntax.txt).
 Also note that `--monster`/`--feature`/`--item` controls what fields it looks
 in, so there are useful but strange-looking queries like
 
